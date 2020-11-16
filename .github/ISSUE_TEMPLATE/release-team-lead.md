@@ -31,6 +31,7 @@ e.g., Kubernetes 1.18
     - [#sig-release](https://kubernetes.slack.com/messages/C2C40FMNF)
     - [#release-management](https://kubernetes.slack.com/messages/CJH2GBF7Y)
   - [ ] Is a [Kubernetes GitHub org member](https://github.com/kubernetes/community/blob/master/community-membership.md#member)
+  - [ ] Has completed the [CNCF Inclusive Speaker Orientation](https://training.linuxfoundation.org/training/inclusive-speaker-orientation/)
 
 ### Onboarding
 
@@ -60,10 +61,13 @@ As you work through the checklist, use the following PRs as guides:
   - `k8s-infra-release-viewers@`
   - `release-managers@`
 - [ ] Manually grant access on the following Google Groups:
-  - [kubernetes-release-team](https://groups.google.com/forum/#!forum/kubernetes-release-team) (Add as Manager)
+  - [kubernetes-release-team](https://groups.google.com/a/kubernetes.io/g/release-team) (Add as Manager)
   - [kubernetes-sig-leads](https://groups.google.com/forum/#!forum/kubernetes-sig-leads) (Add as Member)
 - [ ] Grant calendar access
 - [ ] Grant Zoom credentials (host key)
+- [ ] Add incoming leads to `release-team-leads` Slack Group [(`kubernetes/community`)](https://git.k8s.io/community/communication/slack-config/sig-release/usergroups.yaml)
+  - Add slack ID(s) to [`users.yaml`](https://git.k8s.io/community/communication/slack-config/users.yaml), if they are not yet in the file
+  - Add username(s) to [`usergroups.yaml`](https://git.k8s.io/community/communication/slack-config/sig-release/usergroups.yaml)
 
 ### Offboarding
 
@@ -75,7 +79,10 @@ As you work through the checklist, use the following PRs as guides:
   - `k8s-infra-release-viewers@`
   - `release-managers@`
 - [ ] Manually remove from the following Google Groups:
-  - [kubernetes-release-team](https://groups.google.com/forum/#!forum/kubernetes-release-team) (Add as Manager)
+  - [kubernetes-release-team](https://groups.google.com/a/kubernetes.io/g/release-team) (Add as Manager)
   - [kubernetes-sig-leads](https://groups.google.com/forum/#!forum/kubernetes-sig-leads) (Add as Member)
+- [ ] Remove from `release-team-leads` Slack Group [(`kubernetes/community`)](https://git.k8s.io/community/communication/slack-config/sig-release/usergroups.yaml)
+  - Remove slack ID(s) from [`users.yaml`](https://git.k8s.io/community/communication/slack-config/users.yaml), if no longer in a group
+  - Remove username(s) from [`usergroups.yaml`](https://git.k8s.io/community/communication/slack-config/sig-release/usergroups.yaml)
 
 cc: @kubernetes/release-engineering @kubernetes/release-team

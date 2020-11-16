@@ -34,11 +34,15 @@ There are a few mailing lists that you should be aware of. Depending on your rel
 
 #### Release Team Mailing List
 
-All members of the current release team should be apart of this list. If you're on the Release Team and cannot access: https://groups.google.com/forum/#!forum/kubernetes-release-team, please tell your role lead or the Release Team lead that you need access. The Release Lead, as well as Relase Lead shadows, can manage list membership. 
+All members of the current release team should be apart of this list. If you're on the Release Team and cannot access: https://groups.google.com/a/kubernetes.io/g/release-team, please tell your role lead or the Release Team lead that you need access. The Release Lead, as well as Relase Lead shadows, can manage list membership.
 
 #### SIG Release Mailing List
 
 All members of the release team and anyone who attends Release Team meetings / keeps up with the release process should join the SIG Release group: https://groups.google.com/forum/#!forum/kubernetes-sig-release
+
+### Familiarize with Prow commands
+
+Kubernetes uses [Prow](https://git.k8s.io/test-infra/prow/README.md) to manage CI automation. Issues and PRs are categorized by applying suitable labels, which helps in prioritization of that specific issue/PR during the release cycle. Learn more about the available labels and prow commands from here: https://prow.k8s.io/command-help
 
 ## Role Leads
 
